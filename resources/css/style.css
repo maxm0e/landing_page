@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+}
+
+.wrapper {
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex: 0.3;
+    padding-left: 50px;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+main {
+    height: 400px;
+    width: 100%;
+    background-color: steelblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-col {}
+
+.right-col {}
+
